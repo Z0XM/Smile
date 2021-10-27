@@ -1,0 +1,51 @@
+/* SCSS RGB */
+/* SCSS Gradient */
+/* SCSS RGB */
+/* SCSS Gradient */
+/* SCSS RGB */
+/* SCSS Gradient */
+body {
+  background: white;
+}
+
+.nameCard {
+  background-color: #3f8efc;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 50%;
+  height: 10%;
+  margin: auto;
+  border-radius: 5px;
+  -webkit-box-shadow: 4px 4px #070707;
+          box-shadow: 4px 4px #070707;
+}
+
+.name {
+  padding-top: 2%;
+  text-align: center;
+  font-size: 4rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+  color: #E1E5F2;
+}
+
+.firstLetter {
+  color: #272635;
+  font-size: 5rem;
+}
+
+.tagline {
+  padding-bottom: 2%;
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: cursive;
+  font-style: italic;
+  font-weight: bold;
+  color: #fbfbff;
+}
+/*# sourceMappingURL=style.css.map */

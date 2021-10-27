@@ -1,0 +1,92 @@
+/* SCSS RGB */
+$rich-black-fogra-39: rgba(7, 7, 7, 1);
+$french-blue: rgba(0, 114, 187, 1);
+$eminence: rgba(119, 45, 139, 1);
+$platinum: rgba(230, 230, 230, 1);
+$baby-blue-eyes: rgba(169, 206, 244, 1);
+
+/* SCSS Gradient */
+// $gradient-top: linear-gradient(0deg, #070707ff, #0072bbff, #772d8bff, #e6e6e6ff, #a9cef4ff);
+// $gradient-right: linear-gradient(90deg, #070707ff, #0072bbff, #772d8bff, #e6e6e6ff, #a9cef4ff);
+// $gradient-bottom: linear-gradient(180deg, #070707ff, #0072bbff, #772d8bff, #e6e6e6ff, #a9cef4ff);
+// $gradient-left: linear-gradient(270deg, #070707ff, #0072bbff, #772d8bff, #e6e6e6ff, #a9cef4ff);
+// $gradient-top-right: linear-gradient(45deg, #070707ff, #0072bbff, #772d8bff, #e6e6e6ff, #a9cef4ff);
+// $gradient-bottom-right: linear-gradient(135deg, #070707ff, #0072bbff, #772d8bff, #e6e6e6ff, #a9cef4ff);
+// $gradient-top-left: linear-gradient(225deg, #070707ff, #0072bbff, #772d8bff, #e6e6e6ff, #a9cef4ff);
+// $gradient-bottom-left: linear-gradient(315deg, #070707ff, #0072bbff, #772d8bff, #e6e6e6ff, #a9cef4ff);
+// $gradient-radial: radial-gradient(#070707ff, #0072bbff, #772d8bff, #e6e6e6ff, #a9cef4ff);
+
+/* SCSS RGB */
+$rich-black-fogra-39: rgba(7, 7, 7, 1);
+$harvest-gold: rgba(216, 151, 60, 1);
+$eminence: rgba(119, 45, 139, 1);
+$ghost-white: rgba(251, 251, 255, 1);
+$dodger-blue: rgba(63, 142, 252, 1);
+
+/* SCSS Gradient */
+// $gradient-top: linear-gradient(0deg, #070707ff, #d8973cff, #772d8bff, #fbfbffff, #3f8efcff);
+// $gradient-right: linear-gradient(90deg, #070707ff, #d8973cff, #772d8bff, #fbfbffff, #3f8efcff);
+// $gradient-bottom: linear-gradient(180deg, #070707ff, #d8973cff, #772d8bff, #fbfbffff, #3f8efcff);
+// $gradient-left: linear-gradient(270deg, #070707ff, #d8973cff, #772d8bff, #fbfbffff, #3f8efcff);
+// $gradient-top-right: linear-gradient(45deg, #070707ff, #d8973cff, #772d8bff, #fbfbffff, #3f8efcff);
+// $gradient-bottom-right: linear-gradient(135deg, #070707ff, #d8973cff, #772d8bff, #fbfbffff, #3f8efcff);
+// $gradient-top-left: linear-gradient(225deg, #070707ff, #d8973cff, #772d8bff, #fbfbffff, #3f8efcff);
+// $gradient-bottom-left: linear-gradient(315deg, #070707ff, #d8973cff, #772d8bff, #fbfbffff, #3f8efcff);
+// $gradient-radial: radial-gradient(#070707ff, #d8973cff, #772d8bff, #fbfbffff, #3f8efcff);
+
+/* SCSS RGB */
+$rich-black-fogra-39: rgba(7, 7, 7, 1);
+$celadon-green: rgba(33, 131, 128, 1);
+$eminence: rgba(119, 45, 139, 1);
+$bright-yellow-crayola: rgba(251, 177, 60, 1);
+$dodger-blue: rgba(63, 142, 252, 1);
+
+/* SCSS Gradient */
+// $gradient-top: linear-gradient(0deg, #070707ff, #218380ff, #772d8bff, #fbb13cff, #3f8efcff);
+// $gradient-right: linear-gradient(90deg, #070707ff, #218380ff, #772d8bff, #fbb13cff, #3f8efcff);
+// $gradient-bottom: linear-gradient(180deg, #070707ff, #218380ff, #772d8bff, #fbb13cff, #3f8efcff);
+// $gradient-left: linear-gradient(270deg, #070707ff, #218380ff, #772d8bff, #fbb13cff, #3f8efcff);
+// $gradient-top-right: linear-gradient(45deg, #070707ff, #218380ff, #772d8bff, #fbb13cff, #3f8efcff);
+// $gradient-bottom-right: linear-gradient(135deg, #070707ff, #218380ff, #772d8bff, #fbb13cff, #3f8efcff);
+// $gradient-top-left: linear-gradient(225deg, #070707ff, #218380ff, #772d8bff, #fbb13cff, #3f8efcff);
+// $gradient-bottom-left: linear-gradient(315deg, #070707ff, #218380ff, #772d8bff, #fbb13cff, #3f8efcff);
+// $gradient-radial: radial-gradient(#070707ff, #218380ff, #772d8bff, #fbb13cff, #3f8efcff);
+
+
+body{
+    background: white;
+}
+
+.nameCard{
+    background-color: $dodger-blue;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height:10%;
+    margin:auto;
+    border-radius: 5px;
+    box-shadow: 4px 4px $rich-black-fogra-39;
+}
+.name{
+    padding-top: 2%;
+    text-align: center;
+    font-size: 4rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    color:#E1E5F2;
+}
+.firstLetter{
+    color:#272635;
+    font-size: 5rem;
+}
+.tagline{
+    padding-bottom: 2%;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family:cursive;
+    font-style: italic;
+    font-weight: bold;
+    color:$ghost-white;
+}
+
+
